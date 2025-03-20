@@ -125,7 +125,7 @@ function LetterB() {
         gl.vertexAttribPointer(vertexPositionAttributeLocation, 2, gl.FLOAT, false, 0, 0
         );
 
-        gl.drawArrays(gl.TRIANGLES, 0, 32);
+        gl.drawArrays(gl.TRIANGLES, 0, 30);
 
 
         frameId = requestAnimationFrame(render);
